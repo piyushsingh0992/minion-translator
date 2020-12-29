@@ -6,11 +6,13 @@ function clickHandler(){
         outputarea.innerText=json.contents.translated;
 
     }).catch(errorHandler)
+    console.log('clicked');
 }
 
 function errorHandler(error) {
-    console.log('error is', error)
-    alert('Limit Reached')
+    console.log('error is', error);
+    alert('Limit Reached');
+    console.log('clicked');
 }
 
 var heading=document.querySelector('h1');
