@@ -11,8 +11,7 @@ function clickHandler(){
 
 function errorHandler(error) {
     console.log('error is', error);
-    alert('Limit Reached');
-    
+    alert('Limit Reached');   
 }
 
 var heading=document.querySelector('h1');
