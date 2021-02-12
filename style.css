@@ -37,6 +37,12 @@ header >h1{
 }
 
 
+@media only screen and (max-width: 600px) {
+    header >h1{
+        font-size:4vw;
+    
+    }
+}
 
 .translator{
     flex:0.75;
@@ -81,6 +87,8 @@ button{
 
 }
 
+
+
 button:hover{
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -111,4 +119,25 @@ footer >h1{
 footer >p{
     font-size:1.1vw;
     
+}
+
+
+@media only screen and (max-width: 600px) {
+    header >h1{
+        font-size:4vw;
+    
+    }
+
+    button{
+        font-size:2vw;
+    }
+
+    footer >h1{
+        font-size:4vw;
+    }
+    
+    footer >p{
+        font-size:2vw;
+        
+    }
 }
