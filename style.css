@@ -37,13 +37,6 @@ header >h1{
 }
 
 
-@media only screen and (max-width: 600px) {
-    header >h1{
-        font-size:4vw;
-    
-    }
-}
-
 .translator{
     flex:0.75;
     text-align: center;
