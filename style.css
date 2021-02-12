@@ -96,10 +96,11 @@ footer{
 
     
 
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding:0vw 5vw
 
 }
 
@@ -108,5 +109,6 @@ footer >h1{
 }
 
 footer >p{
-    font-size:1.2vw;
+    font-size:1.1vw;
+    
 }
